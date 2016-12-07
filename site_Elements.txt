@@ -1,0 +1,30 @@
+*** Variables ***
+${LoginButton}    xpath=html/body/div[2]/div[1]/div/form/div[2]
+${EmailTextBox}    id=email
+${MemnerIdTextBox}    id=memberId
+${firstnameTextBox}    id=firstName
+${lastnameTextBox}    id=lastName
+${bgt-offer-dropdown_Textbox}    name=quantity
+${introCopyTextBox}    xpath=html/body/div/div/div[2]/section/div/div/div/div[1]/div
+${legalCopyTextBox}    xpath=html/body/div/div/div[2]/section/div/div/div/div[2]/div[2]/p
+${LCP_URLTextBox}    ${EMPTY}
+${LCP_emailTextBox}    xpath=html/body/div[2]/div/section/form/div[1]/input    #LCP login email address
+${LCP_PasswordTextBox}    xpath=html/body/div[2]/div/section/form/div[2]/input    #LCP login Password
+${LCP_OfferName_FieldTextBox}    xpath=html/body/div[2]/div/section/div[2]/div[2]/form/div[1]/div[1]/input    #LCP Offer name Search Input Field
+${LCP_Preview_Storefront_NameTextBox}    name=storefrontLpName    #LCP Offer Preview form Storefront name
+${LCP_Preview_Storefront_TypeTextBox}    name=storefrontType    #LCP Offer Storefront type
+${LCP_Offer_TypeTextBox}    xpath=html/body/div[2]/div/section/div[2]/div/section[1]/table[1]/tbody/tr[3]/td    #LCP Offer Type
+${LCP_Offer_Base_PICTextBox}    xpath=html/body/div[2]/div/section/div[2]/div/section[1]/table[2]/tbody/tr/td    #LCP Offer Base PIC
+${LCP_Offer_Start_DateTextBox}    xpath=html/body/div[2]/div/section/div[2]/div/section[2]/table/tbody/tr[3]/td/table/tbody/tr/td[1]    #LCP offer start date
+${LCP_Offer_End_DateTextBox}    xpath=html/body/div[2]/div/section/div[2]/div/section[2]/table/tbody/tr[3]/td/table/tbody/tr/td[2]    #LCP Offer End Date
+${LCP_Offer_PriorityTextBox}    xpath=html/body/div[2]/div/section/div[2]/div/section[2]/table/tbody/tr[4]/td    #LCP Offer Priority
+${LCP_Promo_TypeTextBox}    xpath=html/body/div[2]/div/section/div[2]/div/section[3]/table[7]/tbody/tr[1]/td    #LCP Offer Promo Type
+${LCP_Offer_Rate_Block_SizeTextBox}    xpath=html/body/div[2]/div/section/div[2]/div/section[3]/table[8]/tbody/tr/td[1]    #LCP Offer Rate Blcok Size
+${LCP_Offer_Rate_EffectiveTextBox}    xpath=html/body/div[2]/div/section/div[2]/div/section[3]/table[8]/tbody/tr/td[7]/table/tbody/tr[2]/td[2]    #LCP Offer effective rate
+${LCP_Offer_Rate_WholesaleTextBox}    xpath=html/body/div[2]/div/section/div[2]/div/section[3]/table[8]/tbody/tr/td[8]/table/tbody/tr[2]/td[1]    #LCP offer wholesale rate
+${LCP_Offer_Rate_Bonus_RateTextBox}    xpath=html/body/div[2]/div/section/div[2]/div/section[3]/table[8]/tbody/tr/td[8]/table/tbody/tr[2]/td[2]    #LCP Offer Bonus Rate
+${LCP_Offer_Rate_Commision_RateTextBox}    xpath=html/body/div[2]/div/section/div[2]/div/section[3]/table[8]/tbody/tr/td[8]/table/tbody/tr[2]/td[3]    #LCP Offer Commission rate
+${LCP_Offer_LPIDTextBox}    xpath=html/body/div[2]/div/section/div[2]/div/section[5]/table/tbody/tr[1]/td[4]/strong    #LCP Offer LPID
+${LCP_Offer_Member_List_CountTextBox}    xpath=html/body/div[2]/div/section/div[2]/div/section[5]/div/table/tbody/tr[2]/td    #LCP Offer Member Count
+${LCP_Offer_TagsTextBox}    xpath=html/body/div[2]/div/section/div[2]/div/section[7]/div    #LCP Offer Tags
+${LCP_Console_Offer_IntroCopy_AreaTextBox}    xpath=html/body/div[2]/div/section/div[2]/div/form/div[1]/div[4]/div/div/div/div/div[3]/textarea
